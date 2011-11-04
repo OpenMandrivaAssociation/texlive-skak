@@ -99,6 +99,7 @@ provided in chessfss.
 %doc %{_texmfdistdir}/doc/latex/skak/test_capture.tex
 %doc %{_texmfdistdir}/doc/latex/skak/tuggame.pdf
 %doc %{_texmfdistdir}/doc/latex/skak/tuggame.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -109,3 +110,5 @@ provided in chessfss.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar fonts tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
