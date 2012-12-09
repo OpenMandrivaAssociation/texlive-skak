@@ -100,3 +100,17 @@ provided in chessfss.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar fonts tex doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.5-2
++ Revision: 756062
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 1.5-1
++ Revision: 719544
+- texlive-skak
+- texlive-skak
+- texlive-skak
+- texlive-skak
+
