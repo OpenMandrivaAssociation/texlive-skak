@@ -1,12 +1,12 @@
-# revision 16453
+# revision 31403
 # category Package
 # catalog-ctan /fonts/chess/skak
-# catalog-date 2008-10-16 14:41:43 +0200
+# catalog-date 2013-07-19 00:36:54 +0200
 # catalog-license lppl
-# catalog-version 1.5
+# catalog-version 1.5.1
 Name:		texlive-skak
-Version:	1.5
-Release:	2
+Version:	1.5.1
+Release:	1
 Summary:	Fonts and macros for typesetting chess games
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/fonts/chess/skak
@@ -19,7 +19,7 @@ Requires(pre):	texlive-tlpkg
 Requires(post):	texlive-kpathsea
 
 %description
-This package provides macros and fonts in MetaFont format which
+This package provides macros and fonts in Metafont format which
 can be used to typeset chess games using PGN, and to show
 diagrams of the current board in a document. The package builds
 on work by Piet Tutelaers -- the main novelty is the use of PGN
@@ -56,7 +56,6 @@ provided in chessfss.
 %{_texmfdistdir}/fonts/tfm/public/skak/skakf10.tfm
 %{_texmfdistdir}/fonts/tfm/public/skak/skakf10b.tfm
 %{_texmfdistdir}/tex/latex/skak/chess-workshop-symbols.sty
-%{_texmfdistdir}/tex/latex/skak/lambda.sty
 %{_texmfdistdir}/tex/latex/skak/skak.fd
 %{_texmfdistdir}/tex/latex/skak/skak.sty
 %{_texmfdistdir}/tex/latex/skak/uskak.fd
@@ -100,17 +99,3 @@ provided in chessfss.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar fonts tex doc %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.5-2
-+ Revision: 756062
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 1.5-1
-+ Revision: 719544
-- texlive-skak
-- texlive-skak
-- texlive-skak
-- texlive-skak
-
