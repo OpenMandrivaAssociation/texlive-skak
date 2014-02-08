@@ -6,7 +6,7 @@
 # catalog-version 1.5
 Name:		texlive-skak
 Version:	1.5
-Release:	2
+Release:	3
 Summary:	Fonts and macros for typesetting chess games
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/fonts/chess/skak
