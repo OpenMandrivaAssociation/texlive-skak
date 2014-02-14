@@ -1,12 +1,12 @@
-# revision 31403
+# revision 32758
 # category Package
 # catalog-ctan /fonts/chess/skak
-# catalog-date 2013-07-19 00:36:54 +0200
+# catalog-date 2014-01-22 19:51:35 +0100
 # catalog-license lppl
-# catalog-version 1.5.1
+# catalog-version 1.5.2
 Name:		texlive-skak
-Version:	1.5.1
-Release:	5
+Version:	1.5.2
+Release:	1
 Summary:	Fonts and macros for typesetting chess games
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/fonts/chess/skak
@@ -59,7 +59,10 @@ provided in chessfss.
 %{_texmfdistdir}/tex/latex/skak/skak.fd
 %{_texmfdistdir}/tex/latex/skak/skak.sty
 %{_texmfdistdir}/tex/latex/skak/uskak.fd
-%doc %{_texmfdistdir}/doc/latex/skak/README
+%doc %{_texmfdistdir}/doc/latex/skak/ChangeLog.md
+%doc %{_texmfdistdir}/doc/latex/skak/LICENSE
+%doc %{_texmfdistdir}/doc/latex/skak/README.md
+%doc %{_texmfdistdir}/doc/latex/skak/THANKS
 %doc %{_texmfdistdir}/doc/latex/skak/WC-2004-S-00007.tex
 %doc %{_texmfdistdir}/doc/latex/skak/_region_.tex
 %doc %{_texmfdistdir}/doc/latex/skak/andreas_wilm_1.tex
@@ -70,24 +73,24 @@ provided in chessfss.
 %doc %{_texmfdistdir}/doc/latex/skak/font.tex
 %doc %{_texmfdistdir}/doc/latex/skak/font2.tex
 %doc %{_texmfdistdir}/doc/latex/skak/hightest.tex
-%doc %{_texmfdistdir}/doc/latex/skak/informator.pdf
+%doc %{_texmfdistdir}/doc/latex/skak/informator.ps
 %doc %{_texmfdistdir}/doc/latex/skak/informator.tex
 %doc %{_texmfdistdir}/doc/latex/skak/ingo-bug1.tex
-%doc %{_texmfdistdir}/doc/latex/skak/lambda.tex
+%doc %{_texmfdistdir}/doc/latex/skak/longmove_king_bug.tex
 %doc %{_texmfdistdir}/doc/latex/skak/longmoves.tex
 %doc %{_texmfdistdir}/doc/latex/skak/makefile
 %doc %{_texmfdistdir}/doc/latex/skak/promotion_problem_Ulrike.tex
-%doc %{_texmfdistdir}/doc/latex/skak/refman.pdf
+%doc %{_texmfdistdir}/doc/latex/skak/refman.ps
 %doc %{_texmfdistdir}/doc/latex/skak/refman.tex
 %doc %{_texmfdistdir}/doc/latex/skak/show.tex
-%doc %{_texmfdistdir}/doc/latex/skak/skakdoc.pdf
+%doc %{_texmfdistdir}/doc/latex/skak/skakdoc.ps
 %doc %{_texmfdistdir}/doc/latex/skak/skakdoc.tex
 %doc %{_texmfdistdir}/doc/latex/skak/special.map
 %doc %{_texmfdistdir}/doc/latex/skak/syntax.tex
 %doc %{_texmfdistdir}/doc/latex/skak/test1.tex
 %doc %{_texmfdistdir}/doc/latex/skak/test2.tex
 %doc %{_texmfdistdir}/doc/latex/skak/test_capture.tex
-%doc %{_texmfdistdir}/doc/latex/skak/tuggame.pdf
+%doc %{_texmfdistdir}/doc/latex/skak/tuggame.ps
 %doc %{_texmfdistdir}/doc/latex/skak/tuggame.tex
 
 #-----------------------------------------------------------------------
