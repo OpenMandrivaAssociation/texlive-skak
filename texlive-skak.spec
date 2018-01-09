@@ -5,8 +5,8 @@
 # catalog-license lppl
 # catalog-version 1.5.2
 Name:		texlive-skak
-Version:	1.5.2
-Release:	5
+Version:	1.5.3
+Release:	1
 Summary:	Fonts and macros for typesetting chess games
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/fonts/chess/skak
