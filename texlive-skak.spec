@@ -1,12 +1,12 @@
 Name:		texlive-skak
-Version:	1.5.3
-Release:	2
+Version:	61719
+Release:	1
 Summary:	Fonts and macros for typesetting chess games
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/fonts/chess/skak
 License:	LPPL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/skak.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/skak.doc.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/skak.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/skak.doc.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -25,12 +25,12 @@ texmate, and a general mechanism for selecting chess fonts is
 provided in chessfss.
 
 %post
-    %{_sbindir}/texlive.post
+%{_sbindir}/texlive.post
 
 %postun
-    if [ $1 -eq 0 ]; then
+if [ $1 -eq 0 ]; then
 	%{_sbindir}/texlive.post
-    fi
+fi
 
 #-----------------------------------------------------------------------
 %files
@@ -40,7 +40,7 @@ provided in chessfss.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1
+%autosetup -p1 -c -a1
 
 %build
 
