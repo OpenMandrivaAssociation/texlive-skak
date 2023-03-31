@@ -1,6 +1,6 @@
 Name:		texlive-skak
 Version:	61719
-Release:	1
+Release:	2
 Summary:	Fonts and macros for typesetting chess games
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/fonts/chess/skak
