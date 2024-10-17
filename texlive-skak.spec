@@ -3,7 +3,7 @@ Version:	61719
 Release:	2
 Summary:	Fonts and macros for typesetting chess games
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/fonts/chess/skak
+URL:		https://www.ctan.org/tex-archive/fonts/chess/skak
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/skak.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/skak.doc.r%{version}.tar.xz
